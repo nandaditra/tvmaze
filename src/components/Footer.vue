@@ -33,16 +33,29 @@
             </div>
             <div class="lg:ml-6 mt-0 lg:mt-3">
                 <h4 class="text-center font-bold text-lg">Media Social</h4>
-                <ul class="mt-2">
-                    <li class="ml-0 mb-3 hover:text-red hover:font-bold">Facebook</li>
-                    <li class="ml-0 mb-3 hover:text-red hover:font-bold">Twitter</li>
-                    <li class="ml-0 mb-3 hover:text-red hover:font-bold">Tiktok</li>
-                    <li class="ml-0 mb-3 hover:text-red hover:font-bold">Instagram</li>
-                </ul>
+                <div class="grid grid-cols-2 mt-2">
+                    <div class="col-6">
+                        <ul class="mt-2 mx-3">
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Facebook</li>
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Twitter</li>
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Tiktok</li>
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Instagram</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6">
+                        <ul class="mt-2 mx-1">
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Youtube</li>
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Linkeidn</li>
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Snapchat</li>
+                            <li class="ml-0 mb-3 hover:text-red hover:font-bold">Weibo</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="mx-1 lg:mx-2 lg:ml-6">
                 <h4 class="text-center font-bold text-lg">Other</h4>
-                <ul class="mt-2">
+                <ul class="mt-2 mx-3">
                     <li class="ml-0 mb-3 hover:text-red hover:font-bold">Home</li>
                     <li class="ml-0 mb-3 hover:text-red hover:font-bold">About</li>
                     <li class="ml-0 mb-3 hover:text-red hover:font-bold">Privacy Policy</li>

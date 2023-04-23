@@ -18,8 +18,8 @@
                     </div>
 
                     <div class="mt-10 lg:mt-20">
-                        <p class="float-left text-sm lg:text-lg my-2">Isn't Registered? <b class="hover:text-red hover:font-extrabold">Sign in</b></p>
-                        <button class="bg-red px-6 lg:px-10 py-2 lg:py-3 float-right text-sm lg:text-lg rounded-lg">Log In</button>
+                        <p class="float-left text-sm lg:text-lg my-2">Isn't Registered?<a href="/register"> <b class="hover:text-red hover:font-extrabold">Sign in</b></a></p>
+                        <button class="bg-red px-6 lg:px-10 py-2 lg:py-3 float-right text-sm lg:text-lg rounded-lg transition ease-in-out hover:-translate-y-1 delay-150 duration-300 ">Log In</button>
                     </div>
                 </form>
             </div>

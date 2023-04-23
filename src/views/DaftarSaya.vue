@@ -46,6 +46,7 @@ export default {
                 :id = "index"
                 :url= "item.show.image.medium"
                 :title = "item.show.name" 
+                :link = "item.show.url"
                 :status = "item.show.status"
                 :genre = "item.show.genres" 
                 :primiered = "item.show.premiered"

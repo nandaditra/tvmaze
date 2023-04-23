@@ -11,5 +11,4 @@ initTE({ Carousel });
 // whole app router-aware.
 
 export const eventBus = createApp(App)
-
 createApp(App).use(router).mount('#app')

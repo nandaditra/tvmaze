@@ -23,8 +23,8 @@
                     </div>
 
                     <div class="mt-20">
-                        <p class="float-left text-sm lg:text-lg my-2">Do You have Account ? <b class="hover:text-red hover:font-extrabold">Login</b></p>
-                        <button class="bg-red px-6 lg:px-10 py-2 lg:py-3 float-right text-sm lg:text-lg rounded-lg">Sign In</button>
+                        <p class="float-left text-sm lg:text-lg my-2">Do You have Account ?<a href="/login"><b class="hover:text-red hover:font-extrabold">Login</b></a> </p>
+                        <button class="bg-red px-6 lg:px-10 py-2 lg:py-3 float-right text-sm lg:text-lg rounded-lg transition ease-in-out hover:-translate-y-1 delay-150 duration-300 ">Sign In</button>
                     </div>
                 </form>
             </div>

@@ -1,5 +1,8 @@
 <template>
-    <div class="drop-shadow-md hover:block rounded-md bg-black" @click="open=true">
+    <div class="drop-shadow-md hover:block rounded-md bg-black
+      transition ease-in-out hover:-translate-y-1 delay-150 duration-200 " 
+         @click="open=true"
+         >
        <img class="w-72 hover:w-full  hover:opacity-50 rounded-t-lg" :src="url">
        <h5 class="text-lg z-0 lg:text-2xl py-1">{{ title }}</h5>
        <span class="absolute hidden hover:block ms-auto  md-48 text-3xl 
@@ -53,12 +56,12 @@
                       <p class="py-2 text-justify">
                            {{ summary == null ? 'kosong' : summary.substring(0,300).replace('<p>','') }}
                        ...</p>
-                       <button class="float-right bg-red rounded-md px-2 text-[8px]  hover:font-extrabold lg:text-lg lg:px-7 py-1 lg:py-2 lg:absolute bottom-10 right-10 ">
+                       <a :href="link"><button class="float-right bg-red rounded-md px-2 text-[8px]  hover:font-extrabold lg:text-lg lg:px-7 py-1 lg:py-2 lg:absolute bottom-10 right-10 ">
                         <span class="material-icons-outlined float-left text-[10px] lg:text-lg pr-1 ">
                             open_in_browser
                           </span>
                           Visit
-                      </button>
+                      </button></a>
                     </div>
             </div>
           </div>
@@ -74,6 +77,7 @@ export default {
         title : String,
         genre : Array,
         status : String,
+        link : String,
         primiered : String , 
         type : String,
         summary: String,

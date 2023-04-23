@@ -32,8 +32,8 @@
                         </tr>
                     </table>
                     <div class="m-2 lg:m-5">
-                        <button class="px-3 lg:px-5 py-1 lg:py-2 text-md lg:text-lg bg-red rounded mr-2 lg:mr-5 transition ease-in-out hover:-translate-y-1 delay-150 duration-300 "><span class="material-icons-outlined float-left mr-2"> smart_display</span>Watch</button>
-                        <button class="px-3 lg:px-5 py-1 lg:py-2 text-md lg:text-lg bg-green rounded"><span class="material-icons-outlined float-left mr-2"> dvr</span>Detail</button>
+                       <a :href="link"> <button class="px-3 lg:px-5 py-1 lg:py-2 text-md lg:text-lg bg-red rounded mr-2 lg:mr-5 transition ease-in-out hover:-translate-y-1 delay-150 duration-300 "><span class="material-icons-outlined float-left mr-2"> smart_display</span>Watch</button></a>
+                       <a :href="link"> <button class="px-3 lg:px-5 py-1 lg:py-2 text-md lg:text-lg bg-green rounded transition ease-in-out hover:-translate-y-1 delay-150 duration-300"><span class="material-icons-outlined float-left mr-2"> dvr</span>Detail</button></a>
                     </div>
                  </div>
             </div>
@@ -46,6 +46,7 @@ export default {
         url:String,
         title : String,
         genre : Array,
+        link : String,
         status : String,
         primiered : String , 
         type : String
