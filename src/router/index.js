@@ -14,6 +14,10 @@ const router = createRouter({
             component: HomeView
         },
         {
+            path: '/tvmaze',
+            component: HomeView
+        },
+        {
             path: '/search',
             component: SearchView,
             props: route => ({ query: route.query.q })

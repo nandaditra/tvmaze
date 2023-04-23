@@ -1,7 +1,7 @@
 <template>
     <header class="bg-blue z-10 sticky top-0">
        <nav class="py-4 lg:py-10 relative mx-6 lg:mx-32 flex flex-wrap lg:flex-row justify-between">
-            <h3 class="float-left py-2 lg:py-2 text-white lg:text-3xl font-extrabold"><RouterLink to="/">TVMaze</RouterLink></h3>
+            <h3 class="float-left py-2 lg:py-2 text-white lg:text-3xl font-extrabold"><RouterLink to="/tvmaze">TVMaze</RouterLink></h3>
 
             <button 
                 @click="show = !show"
