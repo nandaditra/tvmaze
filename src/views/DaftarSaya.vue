@@ -42,7 +42,7 @@ export default {
         <h3 class="text-1xl lg:text-2xl font-bold mb-10">Total Video : {{ movies.length }}</h3>
 
         <div v-for="(item, index) in movies" :key="item.score">
-            <ListFilmItem 
+            <ListFilmItem  v-if="item.show.image != null"
                 :id = "index"
                 :url= "item.show.image.medium"
                 :title = "item.show.name" 

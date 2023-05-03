@@ -17,14 +17,15 @@ export default {
     },
     data() {
         return {
-            movies : [],
+            movies :[],
+            photo : null,
             isLoading: false,
             error: null
         }
     },
     methods: {
         fetchMovies(){
-            api.get('search/shows?q=girls')
+            api.get('/search/shows?q=girls')
              .then(response =>  (this.movies = response.data))
              .catch(e => {
                   this.error = e 
@@ -49,7 +50,7 @@ export default {
                 <span class="bg-red rounded-full lg:text-2xl px-4 py-1 mt-4">Show Film</span>     
                 <div class="grid md:grid-cols-5 grid-cols-2 md:gap-4 lg:gap-6 gap-3 mt-5 lg:mt-10">
                      <div v-for="(item, index) in movies" :key="item.score" >
-                        <ItemFilm 
+                        <ItemFilm v-if="item.show.image != null"
                             :id = "index"
                             :url= "item.show.image.medium"
                             :title = "item.show.name" 
