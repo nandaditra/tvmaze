@@ -1,7 +1,7 @@
 <template>
      <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 bg-black">
         <div class="hidden md:block lg:block">
-            <img src="https://www.wallpapertip.com/wmimgs/182-1821410_film-wallpaper-square-v2-movie-collection.jpg"/>
+            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/222/2024/06/18/IMG-20240618-WA0081-1086567727.jpg"/>
         </div>
         <div>
             <div class="mx-10 lg:mx-36 my-10 lg:my-18">
